@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CreateTable2</string>
+    <string name="my_string">Toggle setting 1 on/off</string>
+    <string name="document_name">Document Name: </string>
+    <string name="columns_text">Columns: </string>
+    <string name="rows_text">Rows: </string>
+    <string name="create_table_button">Create Table</string>
+    <string name="make_table_button">Create Table</string>
+
+
+    <string-array name="columns_dropdown">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

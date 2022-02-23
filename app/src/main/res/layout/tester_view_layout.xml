@@ -1,0 +1,53 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_margin="8dp"
+android:id="@+id/card_view"
+android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="29dp"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/definition"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/crossImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="285dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="30dp"
+            android:visibility="visible"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
