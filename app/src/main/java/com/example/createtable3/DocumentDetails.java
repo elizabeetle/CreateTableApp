@@ -22,28 +22,7 @@ public class DocumentDetails extends AppCompatActivity {
         setContentView(R.layout.document_details);
         setTitle("New Document");
     }
-/*
-    public void AssignDocumentName(View view) {
-        EditText x = findViewById(R.id.documentName);
-        String documentName = x.getText().toString();
-    }
 
-    public void columnNames(View v){
-
-        EditText documentNameField = findViewById(R.id.documentName);
-        String documentNameInput = documentNameField.getText().toString();
-
-        EditText column1 = findViewById(R.id.column1TextEnter);
-        String column1Input = column1.getText().toString();
-
-        EditText column2 = findViewById(R.id.column2TextEnter);
-        String column2Input = column2.getText().toString();
-
-        EditText column3 = findViewById(R.id.column3TextEnter);
-        String column3Input = column3.getText().toString();
-
-    }
-*/
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
