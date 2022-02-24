@@ -42,8 +42,22 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
 
     @Override
     public int getItemCount() {
+//null check  
+ /*
+       Integer value = null;
+       if( myList != null){
+           value = myList.size();
+       }else{
+           value = 0;
+       }
+       return value;
+
+       all of this can be simplified into the below
+*/
         return(null != myList?myList.size():0);
     }
+
+
     public void notifyData(ArrayList<RecyclerData> myList) {
         this.myList = myList;
         notifyDataSetChanged();
