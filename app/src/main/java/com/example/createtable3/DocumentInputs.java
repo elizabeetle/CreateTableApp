@@ -144,16 +144,16 @@ public class DocumentInputs extends Activity implements RemoveClickListner{
 
 
         Paragraph cell2 = new Paragraph(column2);
-        cell1.setPaddingLeft(10);
-        cell1.setBold();
-        cell1.setHorizontalAlignment(HorizontalAlignment.CENTER);
-        cell1.setVerticalAlignment(VerticalAlignment.MIDDLE);
+        cell2.setPaddingLeft(10);
+        cell2.setBold();
+        cell2.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        cell2.setVerticalAlignment(VerticalAlignment.MIDDLE);
 
         Paragraph cell3 = new Paragraph(column3);
-        cell1.setPaddingLeft(10);
-        cell1.setBold();
-        cell1.setHorizontalAlignment(HorizontalAlignment.CENTER);
-        cell1.setVerticalAlignment(VerticalAlignment.MIDDLE);
+        cell3.setPaddingLeft(10);
+        cell3.setBold();
+        cell3.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        cell3.setVerticalAlignment(VerticalAlignment.MIDDLE);
 
         table.addCell(cell1);
         table.addCell(cell2);
